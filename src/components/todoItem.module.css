@@ -1,0 +1,43 @@
+.item {
+    width: 500px;
+    color: #353953;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.itemName {
+    font-weight: bold;
+    flex-grow: 1;
+}
+
+
+.buttonContainer {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.deleteButton,
+.editButton {
+    margin-left: 10px;
+    padding: 6px 10px;
+    border: none;
+    background-color:  rgb(15, 210, 181);
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+.completed
+{
+    text-decoration: line-through;
+}
